@@ -1,28 +1,14 @@
+@import "../../node_modules/bootstrap/scss/functions";
 
-@import "/_colors.scss";
-body {
-    color: $body-text;
-    background-color: #fafafa;
-}
-h1,h2,h3,h4,h5,h6{
-    color: $heading-text;
-}
-h1{
-    font-size: 34px;
-}
+/* My custom files here */
+@import "./@variables/bootstrap";
+@import "./components/base";
+@import "./components/hero-section";
+@import "./components/about";
+@import "./components/navbar";
 
-a{
-    color: $link-color;
-}
-.welcome{
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-.bg-demo {
-    background: url('../components/category-component/sun.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: whitesmoke;
-    width: 250px;
-    height: 250px;
-}
+
+
+
+/* import the necessary Bootstrap files */
+@import "../../node_modules/bootstrap/scss/bootstrap";
