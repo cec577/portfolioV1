@@ -19,7 +19,7 @@
 }
 
 .scrollPage {
-  background: black !important;
+  background: theme-color('dark') !important;
   border-bottom: 2px solid theme-color();
   position: fixed !important;
   transform: translateY(0) !important;
