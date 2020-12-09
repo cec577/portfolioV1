@@ -13,7 +13,7 @@ class App extends Component {
   componentDidMount() {
     AOS.init({
       duration: 2000,
-      //disable: "mobile",
+      disable: "mobile",
     })
   }
 
