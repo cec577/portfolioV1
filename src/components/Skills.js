@@ -31,7 +31,7 @@ function Skills() {
         </ScrollableAnchor>
         <Row>
           <div class="col-12 col-md-6 col-lg-4 mb-1 text-center">
-            <div class="card" data-aos="flip-left">
+            <div class="card mx-1 mx-md-0" data-aos="flip-left">
               <h5 class="card-header bg-dark">
                 <i class="icon-skills">
                   <FaDev />
@@ -46,7 +46,7 @@ function Skills() {
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-1 text-center">
-            <div class="card" data-aos="flip-left">
+            <div class="card mx-1 mx-md-0" data-aos="flip-left">
               <h5 class="card-header bg-dark">
                 <i class="icon-skills">
                   <FaMobileAlt />
@@ -60,7 +60,7 @@ function Skills() {
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 mb-1 text-center">
-            <div class="card" data-aos="flip-left">
+            <div class="card mx-1 mx-md-0" data-aos="flip-left">
               <h5 class="card-header bg-dark">
                 <i class="icon-skills">
                   <FaBalanceScaleLeft />

@@ -12,6 +12,12 @@
 
 .nav-link {
   color: $white !important;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+  &:hover {
+    color: theme-color() !important;
+  }
+
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -24,4 +30,8 @@
   position: fixed !important;
   transform: translateY(0) !important;
   z-index: 3;
+}
+
+.active {
+  color: theme-color() !important;
 }

@@ -15,14 +15,14 @@ function Footer() {
       <Row>
         <div class="col-12 col-lg-6 my-lg-auto pl-2 pl-lg-0 mb-2">
           <div class="mb-1">
-            <FaMailBulk className="icon-footer mr-1" /> cecile.henry577@gmail.com
+            <a href="mailto:cecdm57@gmail.com"><FaMailBulk className="icon-footer mr-1" /> cecdm57@gmail.com </a>
           </div>
           <div>
-            <FaPhoneAlt className="icon-footer mr-1" /> 0649435797
+            <a href="tel:+0649435797"><FaPhoneAlt className="icon-footer mr-1" /> 06.49.43.57.97 </a>
           </div>
           <div class="mb-1 mt-3">
             <a href="https://www.instagram.com/cec_dm/">
-              <FaInstagram className="icon-footer link-icon mr-1 "/> Sur les réseaux
+              <FaInstagram className="icon-footer link-icon mr-1 "/> Sur insta
             </a>
           </div>
         </div>

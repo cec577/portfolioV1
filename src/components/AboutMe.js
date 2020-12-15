@@ -15,13 +15,13 @@ function AboutMe() {
     </ScrollableAnchor>
     <Container>
       <Row>
-        <div className="col-8 col-lg-6 text-white text-center text-lg-right my-auto " data-aos="fade-right" >
+        <div className="col-12 col-lg-6 text-white text-center text-lg-right my-auto " data-aos="fade-right" >
           <div data-aos="fade-right">
-            <p><strong>Développeur Front-end et intégrateur basée à Metz</strong></p>
-            <p>Besoin d'un site internet ?</p>
+            <p class="display-5"><strong>Développeuse Front-end et intégratrice basée à Metz</strong></p>
+            <p>Besoin d'un site internet ? Contactez-moi directement</p>
           </div>
         </div>
-        <div className="col-4 my-auto col-lg-6">
+        <div className="col-12 col-lg-6 text-center text-lg-left">
           <div data-aos="fade-left">
             <img src={Moi} className="shadow rounded" alt="Cecile Henry Developpeur web"/>
           </div>
