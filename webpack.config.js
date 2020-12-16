@@ -24,14 +24,8 @@ module.exports = {
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              // name: "./images/[name].[hash].[ext]",
-              name: '[path][name]-[hash:8].[ext]',
-            },
-          },
-          {
+            'file-loader',
+            {
             loader: 'image-webpack-loader',
             options: {
               mozjpeg: {
