@@ -22,13 +22,13 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
+        test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
           {
             loader: 'file-loader',
             options: {
               // name: "./images/[name].[hash].[ext]",
-              name: 'images/[name].[ext]',
+              name: '[path][name]-[hash:8].[ext]',
             },
           },
           {
@@ -36,7 +36,6 @@ module.exports = {
             options: {
               mozjpeg: {
                 progressive: true,
-                quality: 65,
               },
               // optipng.enabled: false will disable optipng
               optipng: {
